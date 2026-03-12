@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:milicheck/features/security_check/presentation/pages/security_check_screen.dart';
 import 'core/di/injection.dart'; // DI 설정 임포트
 
 void main() async {
@@ -32,14 +33,7 @@ class MiliCheckApp extends StatelessWidget {
           foregroundColor: Colors.black87,
         ),
       ),
-      home: const Scaffold(
-        body: Center(
-          child: Text(
-            'Milli-check System Ready',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
-          ),
-        ),
-      ),
+      home: const SecurityCheckScreen()
     );
   }
 }
