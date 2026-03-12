@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902207302809",
+    "project_id": "milicheck-8f445",
+    "storage_bucket": "milicheck-8f445.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902207302809:android:ab431f80683127f89a1c08",
+        "android_client_info": {
+          "package_name": "com.example.milicheck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWkWdXR97FsbYi93mwUIdxaZjkdpas7nM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
